@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Inputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="areaInp">
+        <p>Enter Area of Land in Aana and Paisa</p>
+        <label for="aanaInp">Aana</label>
+        <select name="aanaInp" id="aanaInp">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <label for="paisaInp">Paisa</label>
+        <select name="paisaInp" id="paisaInp">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    <div class="roomInp">
+        <p>Enter Number of Rooms</p>
+
+        <div class="room">
+            <span>Bedroom</span>
+            <div class="counter">
+                <button class="decrease">−</button>
+                <span class="count" id="countBed">2</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <span>Living Room</span>
+            <div class="counter">
+                <button class="decrease">−</button>
+                <span class="count" id="countLiving">1</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <span>Kitchen</span>
+            <div class="counter">
+                <button class="decrease">−</button>
+                <span class="count" id="countKitchen">1</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <span>Bathroom</span>
+            <div class="counter">
+                <button class="decrease">−</button>
+                <span class="count" id="countBath">1</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <span>Garage</span>
+            <div class="counter">
+                <button class="decrease" >−</button>
+                <span class="count" id="countGarage">1</span>
+                <button class="increase" >+</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <span>Dining Room</span>
+            <div class="counter">
+                <button class="decrease">−</button>
+                <span class="count" id="countDining">0</span>
+                <button class="increase">+</button>
+            </div>
+        </div>
+
+    </div>
+    <input type="submit" value="Generate" class="generate">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
