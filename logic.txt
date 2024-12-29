@@ -1,0 +1,17 @@
+i want js code for such logic, where there is restriction or limit for user input of no. of rooms, for certain area, 
+
+for aana<5,
+bedroom 2,
+living and kitchen 1
+bathroom 1 or 2
+garage always 1
+dining 0
+(so combinations are 2BHK2B or 2BHKB, first B means bedroom, second B means bathroom, in both comnination)
+
+for aana>=5,
+bedroom 2 or 3 (2 when 2bathroom,0dining OR when 1bathroom,1dining)
+living and kitchen 1
+bathroom 1 or 2 (2 when 2bedroom,0dining , 1 when 2bed,1dining or 3bed,0dining)
+garage always 1 
+dining 1, 0 (1 when 3bed,0bath and 0 when 2bed,2bath or 3bed,1bath)
+(so combinations are 2BHK2B, 2BHKBD, 2BHKB, D means Dining)
