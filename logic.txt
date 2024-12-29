@@ -15,3 +15,6 @@ bathroom 1 or 2 (2 when 2bedroom,0dining , 1 when 2bed,1dining or 3bed,0dining)
 garage always 1 
 dining 1, 0 (1 when 3bed,0bath and 0 when 2bed,2bath or 3bed,1bath)
 (so combinations are 2BHK2B, 2BHKBD, 2BHKB, D means Dining)
+
+
+i have a folder named, houseplanData, inside which i have folders named 3aana, 3aana1Paisa, 3aana2paisa, 3aana3Paisa, 4aana, 4aana1Paisa, ....................., 5aana, 5aana1Paisa, .......... 6aana. Inside all of them, i have folders named 2BHK2B, 2BHKB (till 4aana 3paisa) and folders named 2BHK2B, 2BHKBD, 3BHKB from 5aana to 6aana. Inside these folders, i have about 2-3 floorplans stored in png forms, i want to display the corresponding floorplans according to user input of area and rooms
